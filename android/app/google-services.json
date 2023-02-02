@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "972596853993",
+    "project_id": "bingo-9fe2e",
+    "storage_bucket": "bingo-9fe2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972596853993:android:4e8769fb1101d5edefc478",
+        "android_client_info": {
+          "package_name": "cruzer.blade.bingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972596853993-rfhoh31har95r5tgnsq60jrut2qfsgnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cruzer.blade.bingo",
+            "certificate_hash": "17755c894accd4bc25ad79200631a96ce08e5326"
+          }
+        },
+        {
+          "client_id": "972596853993-emiubl4i0qn32ptfi0lvc6e51t4uv2qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9eZK5rnRo6Ub6gAbxwh8_6AtzdMT7hVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972596853993-emiubl4i0qn32ptfi0lvc6e51t4uv2qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
