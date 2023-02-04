@@ -1,5 +1,6 @@
 import 'package:bingo/views/screens/game_screen.dart';
 import 'package:bingo/views/screens/login_screen.dart';
+import 'package:bingo/views/screens/room_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -30,7 +31,7 @@ class AuthController extends GetxController {
     if (user == null) {
       Get.offAll(() => LoginScreen());
     } else {
-      Get.offAll(() => const GameScreen());
+      Get.offAll(() => const RoomScreen());
     }
   }
 
@@ -44,7 +45,7 @@ class AuthController extends GetxController {
       if (result.user != null) {
         User user = result.user!;
       }
-      Get.to(() => const GameScreen());
+      Get.to(() => const RoomScreen());
       // Navigate to the home screen or another screen as appropriate
     } catch (e) {
       Get.snackbar('Error', e.toString());
@@ -62,7 +63,7 @@ class AuthController extends GetxController {
       if (result.user != null) {
         User user = result.user!;
       }
-      Get.to(() => const GameScreen());
+      Get.to(() => const RoomScreen());
       // Navigate to the home screen or another screen as appropriate
     } catch (e) {
       Get.snackbar('Error', e.toString());

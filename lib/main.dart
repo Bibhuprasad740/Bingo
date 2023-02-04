@@ -22,6 +22,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light().copyWith(
+        colorScheme: ColorScheme.fromSwatch(
+          primarySwatch: Colors.green,
+        ),
         appBarTheme: const AppBarTheme(
           backgroundColor: Globals.accent1,
           centerTitle: true,
